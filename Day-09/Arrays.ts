@@ -52,8 +52,8 @@ for (let value of data) {
 //Example 4: Passing an Array to the function 
 //Search an element in a n array using function 
 
-function search(ele: number, arr: number[]): boolean {
-    for (let i = 0; i < arr.length; i++) {
+function search(ele: number, arr1: number[]): boolean {
+    for (let i = 0; i < arr1.length; i++) {
         if (arr[i] === ele) {
             return true; // Element found
         }
@@ -61,9 +61,9 @@ function search(ele: number, arr: number[]): boolean {
     return false; // Element not found
 }
 
-let arr: number[] = [10, 20, 30, 40, 50];
-console.log(search(20, arr)); // Output: true
-console.log(search(100, arr)); // Output: false
+let arr1: number[] = [10, 20, 30, 40, 50];
+console.log(search(20, arr1)); // Output: true
+console.log(search(100, arr1)); // Output: false
 
 
 //Example 5 : A functions takes an Array and returns an array
