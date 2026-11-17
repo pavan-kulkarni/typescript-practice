@@ -54,7 +54,7 @@ for (let value of data) {
 
 function search(ele: number, arr1: number[]): boolean {
     for (let i = 0; i < arr1.length; i++) {
-        if (arr[i] === ele) {
+        if (arr1[i] === ele) {
             return true; // Element found
         }
     }
